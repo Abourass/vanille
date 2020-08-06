@@ -1,4 +1,4 @@
-import { createUUID } from './uuid';
+import { createUUID } from './uuid.js';
 export class Style {
     constructor(css) {
         this.sheet = '';

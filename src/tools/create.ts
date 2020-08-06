@@ -1,5 +1,5 @@
-import el, {toolsInterface} from './el';
-import {createUUID} from './uuid';
+import el, {toolsInterface} from './el.js';
+import {createUUID} from './uuid.js';
 
 export const create = function(tagName: string, appendTo: string): toolsInterface {
   const newEl: HTMLElement = document.createElement(tagName);

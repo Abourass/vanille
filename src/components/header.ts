@@ -1,6 +1,6 @@
-import create from '../tools/create';
-import {toolsInterface} from '../tools/el';
-import Style from '../tools/style';
+import create from '../tools/create.js';
+import {toolsInterface} from '../tools/el.js';
+import Style from '../tools/style.js';
 
 export const header = (appendTo: string, title: string, theme: Style): toolsInterface => {
   theme.add(`

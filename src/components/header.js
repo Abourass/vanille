@@ -1,4 +1,4 @@
-import create from '../tools/create';
+import create from '../tools/create.js';
 export const header = (appendTo, title, theme) => {
     theme.add(`
 .header {

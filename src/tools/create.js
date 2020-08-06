@@ -1,5 +1,5 @@
-import el from './el';
-import { createUUID } from './uuid';
+import el from './el.js';
+import { createUUID } from './uuid.js';
 export const create = function (tagName, appendTo) {
     const newEl = document.createElement(tagName);
     newEl.id = `${tagName}-${createUUID()}`;

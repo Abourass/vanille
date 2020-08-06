@@ -1,5 +1,5 @@
-import header from './components/header';
-import Style from './tools/style';
+import header from './components/header.js';
+import Style from './tools/style.js';
 const theme = new Style(`
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 * {
