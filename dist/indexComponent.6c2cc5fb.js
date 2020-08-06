@@ -11,4 +11,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./uuid":"oWxc"}],"iOH1":[function(require,module,exports) {
 "use strict";var e=o(require("./components/header")),n=o(require("./tools/style"));function o(e){return e&&e.__esModule?e:{default:e}}var a=new n.default('\n@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\nbody {\n  height: 100vh;\n  background: #050801;\n  font-family: "Raleway", sans-serif;\n  font-weight: bold;\n}');(0,e.default)("body","The Coffee Drip",a);
 },{"./components/header":"EVAn","./tools/style":"jQrm"}]},{},["iOH1"], null)
-//# sourceMappingURL=dist/indexComponent.6c2cc5fb.js.map
+//# sourceMappingURL=/indexComponent.6c2cc5fb.js.map
