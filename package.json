@@ -1,0 +1,12 @@
+{
+  "name": "vanille",
+  "version": "1.0.0",
+  "description": "A sample component based website built in vanilla typescript",
+  "main": "./dist/index.html",
+  "scripts": {
+    "serve": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "Antonio B",
+  "license": "MIT"
+}

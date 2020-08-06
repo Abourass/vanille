@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "ES6",
+    "target":  "ES2020",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "esModuleInterop": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "allowUmdGlobalAccess": true
+  },
+  "files": [
+    "./src/tools/el.ts",
+    "./src/tools/create.ts",
+    "./src/tools/nest.ts",
+    "./src/tools/uuid.ts",
+    "./src/tools/style.ts",
+    "./src/components/header.ts",
+    "./src/indexComponent.ts"
+  ]
+}
