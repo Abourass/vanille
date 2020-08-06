@@ -5,7 +5,7 @@
   "main": "./dist/index.html",
   "scripts": {
     "serve": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "build": "parcel build ./src/index.html --public-url ./dist/"
   },
   "author": "Antonio B",
   "license": "MIT"
